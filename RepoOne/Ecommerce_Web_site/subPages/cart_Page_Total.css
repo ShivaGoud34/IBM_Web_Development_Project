@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border:border-box;
+    font-family: Arial;
+}
+
+/* Nav Bar --Header Section --------------------------*/
+
+.navBar{
+    
+    height: 150px;
+    width: 100%;
+    background-image: url("Background.jpg");
+    background-size: contain;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+
+    min-width: 0;  
+    min-height: 0;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+
+    grid-template-rows :50px  50px  50px 50px 50px;
+}
+
+
+#logoDiv{
+    border-radius: 30px 30px 30px 30px;
+
+    grid-column-start:1;
+    grid-column-end:2 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    height:100px;
+    width: 100%;
+    border-radius: 0px;
+
+    background-image: url("logo.png");
+    background-size: cover;
+    background-position: center; 
+}
+
+
+#downloadAppDiv{
+    grid-column-start:2;
+    grid-column-end:3 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    font-size: 1.4rem;
+    border-radius: 0px 50px 0px 50px;
+    color: white;
+    background-color: #146AA8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#delivery{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#accountList{
+    grid-column-start:4;
+    grid-column-end:5 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    font-size: 1.4rem;
+    background-color: #146AA8;
+
+    color: white;
+
+    border-radius: 50px 0px 50px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cart{
+    min-width: 0;
+
+    width: 100%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0px 0px 0px 30px;
+    font-size:3rem;
+
+    grid-column-start:5;
+    grid-column-end: 6;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+
+    min-width: 0;  
+    min-height: 0;
+}
+
+
+#singUp{
+    grid-column-start:2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#searchSelect{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    border-radius:50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    
+}
+#search{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+
+} 
+
+#selectDiv{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 20px;
+    border: none;
+    display: flex;
+    text-align:center ;
+}
+
+
+#inputDiv{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    
+} 
+
+
+#returnsOrdersDiv{
+
+    grid-column-start:4;
+    grid-column-end:5 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#PanelOption{
+    width: 100%;
+    background-color: #146AA8;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    grid-column-start:1;
+    grid-column-end: 6;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+
+}
+
+
+
+.totalSection{
+    width: 100%;
+    height: 1000px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    flex-wrap: nowrap;   /*  if there any boxs if we dont need flex that box we use no-Wrap & box-sizing: border-box */
+    box-sizing: border-box;   
+
+}
+
+/* Pannel Section - 1     ----------------------------------------- */
+
+.pannelSection1{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    
+    
+}
+
+
+/* .section1Body  ************************************************* */
+
+
+.section1Body{
+    width: 100%;
+    max-width: 1500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+}
+
+
+
+#totalScreen{
+    background-color: rgb(238, 9, 9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cart{
+
+    margin-top: 30px;
+    height: 100%;
+    width: 60%;
+    border-radius: 0px 50px 50px 0px;
+    padding-left: 20px;
+    padding: 20px;
+
+    text-align: center;
+    background-color:rgba(254, 238, 254,8);
+    top: 20px;
+    right:20px;
+    bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+    
+}
+
+
+i{
+    margin-top: 10px;
+}
+
+.s2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.cart-p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+    
+}
+
+.cart-p>:nth-child(1){
+    width: 50px;
+}
+
+.cart-p>:nth-child(2){
+    
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart-p>:nth-child(3){
+    /* position: absolute;
+    right: 440px; */
+    width: 40px;
+    font-weight: 600;
+
+}
+
+.cart-p>:nth-child(4){
+   padding:5px 15px;
+   background-color: red;
+   border: 0;
+   border-radius: 5px;
+   font-weight: 600;
+}
+
+
+#total{
+    margin-top: 30px;
+    background-color: rgb(101, 215, 215);
+    border-radius: 10px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1536px){
+    .navBar{
+        grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1536px){
+    .pannelsSections1{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1536px){
+    .pannelsSections2{
+        grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 1836px){
+    .heading1 , .heading2 ,.heading3, p, option,input,.seeMore1 , .seeMore2 , .seeMore3 , header , #searchSelect { 
+        font-size:1rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .heading1 , .heading2 ,.heading3, p ,option,input, .seeMore1 , .seeMore2 , .seeMore3 , .navBar ,header , #searchSelect { 
+        font-size:.8rem;
+       
+    }
+}
+@media (max-width: 900px){
+    .heading1 , .heading2 ,.heading3, p ,option,input,.seeMore1 , .seeMore2 , .seeMore3 ,header , #searchSelect { 
+        font-size:.6rem;
+    }
+}
+
+
+@media (max-width: 1200px){
+  i , #cart  { 
+        font-size:2rem;
+    }
+}
+
+@media (max-width: 900px){
+  i , #cart { 
+        font-size:1.7rem;
+    }
+}
+
+@media (max-width: 900px){
+  div { 
+        font-size:.7rem;
+    }
+}

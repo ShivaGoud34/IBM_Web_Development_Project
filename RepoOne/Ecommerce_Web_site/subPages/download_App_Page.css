@@ -1,0 +1,36 @@
+ 
+    .loaderDiv3{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 25px solid rgb(223, 223, 25);
+    
+        border-top: #13b14a solid 25px;
+    
+    
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top: 250px;
+        animation: colorSpinAnimate4 2s ease-in-out infinite ;
+    }
+    @keyframes colorSpinAnimate4{
+        0% {rotate: z 0deg ;
+        }
+    
+    
+        100% {rotate: z 360deg ;
+        }
+    
+    }
+
+    #downloading{
+        color: red;
+        font-weight: 700;
+        font-size: 1.5rem;
+        position:absolute;
+        top: 385px;
+
+    }
+                                    
