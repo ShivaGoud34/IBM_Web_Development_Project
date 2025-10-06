@@ -28,6 +28,10 @@
     grid-template-rows :50px  50px  50px 50px 50px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 
 #logoDiv{
     border-radius: 30px 30px 30px 30px;
@@ -710,12 +714,7 @@
     align-self: flex-end;
     align-content: center;
     padding-left: 10px;
-
-
-
 }
-
-
 
 
 .pannelContainer9{
@@ -732,7 +731,6 @@
 #ads9{
     height: 500px;
     width: 500px;
-
     background-color: azure;
 
     display: flex;
@@ -740,13 +738,10 @@
     align-items: center;
     background-image: url("WM.png");
     background-size: cover;
-
 }
 
 
-
 .seeMore9{
-
     width: 500px;
     height: 30px;
     background-color: rgb(208, 149, 106);
@@ -755,107 +750,87 @@
     align-content: center;
     padding-left: 10px;
 
-
 }
-
-
-
-
 
 
 
 /* //************************************************************ */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a{
+.footer-panel1{
+    background-color:  #125c90;;
     color: white;
-    text-decoration: none;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 50px;
+
 }
 
 
+.footer-panel1:hover{
+    font-size:xx-large;
+    background-color:whitesmoke ;
+    color: black;
+}
 
+.footer-panel2{
+    background-color: #146AA8;;
+    color: white;
+    height: 200px;   
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footer-panel4{
+    background-color: #125c90;
+    color: white;
+    height: 30px;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.footerP{
+    font-weight: 500;
+}
+ 
+ ul .footerA{
+    display: block;
+}
+
+.Copy-right{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    font-size: .7rem;
+    background-color:#125c90;
+    padding-top: 10px;
+}
+
+.footerA{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: .7rem;
+}
+
+.footerA:hover{
+    color: rgb(192, 16, 16);
+    font-weight: .8rem;
+
+}
+
+
+/* ***************************************************************************** */
 
 
 
